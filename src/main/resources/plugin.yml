@@ -2,3 +2,14 @@ name: NocturneUtils
 version: '1.0-SNAPSHOT'
 main: me.giveblock.nocturneUtils.NocturneUtils
 api-version: '1.21'
+
+commands:
+  nocturneutil:
+    description: default utils command
+    aliases:
+      - 'nocutils'
+
+permissions:
+  nocutils.nocutil:
+    description: 'default perm'
+    default: false
